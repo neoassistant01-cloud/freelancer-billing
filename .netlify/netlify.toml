@@ -10,11 +10,9 @@ redirects = []
 publish = "/opt/openclaw/mvp-projects/freelancer-revenue/dist"
 publishOrigin = "config"
 commandOrigin = "config"
-base = "/opt/openclaw/mvp-projects/freelancer-revenue"
-command = "pnpm run build"
+command = "echo 'static build'"
 
 [build.environment]
-NODE_VERSION = "22"
 
 [build.processing]
 

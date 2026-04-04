@@ -1,6 +1,3 @@
 [build]
-  command = "pnpm run build"
+  command = "echo 'static build'"
   publish = "dist"
-
-[build.environment]
-  NODE_VERSION = "22"
